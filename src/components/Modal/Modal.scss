@@ -1,0 +1,75 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    overflow:auto;
+    max-height: 100%;
+    // width: 70%;
+    border-radius: 2px;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    font-family: var(--primaryFont);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -webkit-transform: translate(0, -50px);
+    transform: translate(0, -50px);
+}
+
+@media (max-width: 1400px) {
+    .Modal {
+        // width: 500px;
+        left: 22%;
+        right: 22%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Modal {
+        // width: 500px;
+        left: 20%;
+        right: 20%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .Modal {
+        left: 18%;
+        right: 18%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .Modal {
+        left: 16%;
+        right: 16%;
+    }
+}
+
+@media (max-width: 950px) {
+    .Modal {
+        // width: 500px;
+        left: 8%;
+        right: 8%;
+    }
+}
+
+
+@media (max-width: 690px) {
+    .Modal {
+        // width: 500px;
+        // left: calc(50% - 250px);
+        // right: calc(50% - 250px);
+        left: 6%;
+        right: 6%;
+        top: 15%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Modal {
+        top: 5%;
+        bottom: 2%;
+    }
+}

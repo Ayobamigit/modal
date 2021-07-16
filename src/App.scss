@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+:root{
+  --primaryFont: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+  background-color: #f8f8fb;
+}
+
+.home-page {
+  // text-align: center;
+  font-family: var(--primaryFont);
+  // background-color: #282c34;
+  // background-image: url('./assets/bg.jpg');
+  background-color: #EFF1F3;
+  background-image: url('./assets/smeupturn-background.svg');
+  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.description{
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: #302C48;
+}
+
+.launch-button{
+  background-color: #141E61;
+  border: none;
+  border-color: transparent;
+  font-family: var(--primaryFont);
+  border-radius: 2px;
+  color: #EEEEEE;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.launch-button:hover{
+  cursor: pointer;
+}
+
+.modal-button{
+  background-color: #141E61;
+  border: none;
+  border-color: transparent;
+  font-family: var(--primaryFont);
+  border-radius: 2px;
+  color: #EEEEEE;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.modal-button:hover{
+  cursor: pointer;
+}
+
+.modal-content{
+  padding: 20px 30px;
+}
+
+.modal-heading{
+  margin: 0px;
+  font-size: 20px;
+  color: #302C48;
+  // font-weight: 600;
+}
+
+.modal-text{
+  font-size: 14px;
+  line-height: 25px;
+  color: #302C48;
+}
+
+.modal-close{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.modal-footer{
+  margin-top: 30px;
+  text-align: end;
+}
+
+::-webkit-scrollbar-track {
+	border: none;
+}
+
+::-webkit-scrollbar {
+	width: 2px;
+	background-color: #F3F3F3;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #141E61;	
+}
+
